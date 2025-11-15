@@ -1,9 +1,9 @@
-class Etudiant{
-    constructor(nom,age){
+class Etudiant {
+    constructor(nom, age) {
         this.nom = nom
         this.age = age
     }
-    info(){
+    info() {
         return `Etudinat nom: ${this.nom} a pour age:${this.age}`
     }
 }
