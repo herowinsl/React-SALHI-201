@@ -9,7 +9,7 @@ class Etudiant {
     }
 }
 let et1 = new Etudiant("ilias", "salhi", 20);
-let et2 = new Etudiant("ilyass", "Sennane", 21);
+let et2 = new Etudiant("ilyas", "Sennane", 21);
 console.log(et1);
 console.log(et2);
 
