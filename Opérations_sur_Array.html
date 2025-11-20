@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const clients = [
+            {nom: "rami", montant:  4500},
+            {nom: "karimi", montant:  2300},
+            {nom: "chouki", montant:  5500},
+            {nom: "ramoun", montant:  7700},
+        ];
+
+        const totalMontants = clients.reduce(function(total,client){
+            return total+=client.montant
+        },0)
+
+        console.log(totalMontants);
+    </script>
+</body>
+</html>
